@@ -1,4 +1,6 @@
 module Main where
 
+import Gcd
+
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = print $ gcd' 48 18

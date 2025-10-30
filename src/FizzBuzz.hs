@@ -7,5 +7,5 @@ check n
   | n `mod` 5 == 0 = "Buzz"
   | otherwise = show n
 
-main :: IO ()
-main = mapM_ (putStrLn . check) [1 .. 100]
+fizzBuzz :: IO ()
+fizzBuzz = mapM_ (putStrLn . check) [1 .. 100]
